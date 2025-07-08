@@ -1,7 +1,6 @@
-package com.Implementing.java.eight;
-
 @FunctionalInterface
  public interface MyInterface {
+
     String sayHello();
 
     default void sayBye(){
